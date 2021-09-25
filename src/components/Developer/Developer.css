@@ -1,0 +1,42 @@
+.developer-cart img{
+    width: 90%;
+}
+.developer-cart{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gainsboro;
+    transition: 0.6s;
+    border:2px solid black;
+}
+.developer-cart:hover{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
+    border: 1px solid bl
+}
+.blod-text{
+    font-weight: bold;
+}
+.btn-cart{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    width:130px;
+    border-radius: 5px;
+    margin-bottom:5px;
+    cursor: pointer;
+}
+.btn-cart:hover{
+    color:white;
+    background-color: black;
+}
+.socal-icons{
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.616);
+}
+.fab{
+    margin-left: 5px;
+    margin-right: 5px;
+}

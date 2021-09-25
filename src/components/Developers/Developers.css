@@ -1,0 +1,16 @@
+.developers-container{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    margin:auto;
+    width:90%;
+    margin-top: 50px;
+    margin-bottom:70px;
+}
+.developer{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 25px;
+}
+.cart-containar{
+    text-align:center;
+}

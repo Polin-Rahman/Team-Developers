@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Olivia Emma",
+        "role": "React.Js Developer",
+        "age": 27,
+        "gender": "Female",
+        "country": "USA",
+        "salary": 2200,
+        "img": "https://image.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg"
+    },
+    {
+        "id": 2,
+        "name": "James Benjamin",
+        "role": "Node.Js Developer",
+        "age": 29,
+        "gender": "Male",
+        "country": "UK",
+        "salary": 2500,
+        "img": "https://image.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Alexander Henry",
+        "role": "MERN Stack Developer",
+        "age": 31,
+        "gender": "Male",
+        "country": "USA",
+        "salary": 3300,
+        "img": "https://image.freepik.com/free-photo/attractive-man-model-with-trendy-hairdo-beard-dressed-white-t-shirt_273609-16964.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Michael Mason",
+        "role": "Js Developer",
+        "age": 37,
+        "gender": "Male",
+        "country": "Germany",
+        "salary": 4000,
+        "img": "https://image.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sophia Charlotte",
+        "role": "Anguler.Js Developer",
+        "age": 29,
+        "gender": "Female",
+        "country": "Australia",
+        "salary": 2900,
+        "img": "https://image.freepik.com/free-photo/lifestyle-business-people-holding-laptop-computer-office-desk_1150-10180.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Daniel Daniel",
+        "role": "PHP Developer",
+        "age": 26,
+        "gender": "Male",
+        "country": "Uk",
+        "salary": 2800,
+        "img": "https://image.freepik.com/free-photo/young-male-looking-pink-t-shirt-looking-cheerful-front-view_176474-84436.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Nora Hazel",
+        "role": "Web Designer",
+        "age": 24,
+        "gender": "Female",
+        "country": "Netherlands",
+        "salary": 2000,
+        "img": "https://image.freepik.com/free-photo/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Paisley Lucy",
+        "role": "Django Developer",
+        "age": 31,
+        "gender": "Female",
+        "country": "USA",
+        "salary": 4100,
+        "img": "https://image.freepik.com/free-photo/happy-confident-female-customer-posing-camera_74855-2850.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Aidena John",
+        "role": "Vue.Js Developer",
+        "age": 28,
+        "gender": "Male",
+        "country": "Poland",
+        "salary": 2200,
+        "img": "https://image.freepik.com/free-photo/woman-with-laptop-computer-sitting-floor-isolated-white_231208-9490.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Annvi Evy",
+        "role": "Laravel Developer",
+        "age": 32,
+        "gender": "Male",
+        "country": "France",
+        "salary": 3400,
+        "img": "https://image.freepik.com/free-photo/photo-attractive-man-with-stylish-hairdo-has-stubble-looks-directly-seriously-wears-checkered-shirt-isolated-white-wall-confident-male-manager-works-models-indoor_273609-14941.jpg"
+    }
+]
