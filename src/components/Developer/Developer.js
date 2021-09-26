@@ -6,8 +6,10 @@ import { faFacebookSquare, faGithubSquare, faInstagramSquare, faLinkedin, faTwit
 import './Developer.css';
 
 const Developer = (props) => {
+    //destructuring
     const { name, role, age, gender, img, salary, country } = props.developer;
 
+    //inons 
     const cartIcon = <FontAwesomeIcon icon={faCartPlus} />
     const linkIcon = <FontAwesomeIcon icon={faLinkedin} />
     const gitIcon = <FontAwesomeIcon icon={faGithubSquare} />
@@ -15,7 +17,7 @@ const Developer = (props) => {
     const instaIcon = <FontAwesomeIcon icon={faInstagramSquare} />
     const twitIcon = <FontAwesomeIcon icon={faTwitterSquare} />
 
-
+    //single developer details
     return (
         <div className="developer-cart">
             <img src={img} alt="" />

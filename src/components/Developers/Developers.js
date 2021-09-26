@@ -4,21 +4,25 @@ import Developer from '../Developer/Developer';
 import './Developers.css';
 
 const Developers = () => {
+    //use states
     const [developers, setDevelopers] = useState([]);
 
     const [cart, setCart] = useState([]);
 
+    //load data
     useEffect(() => {
         fetch('./fake-data.JSON')
             .then(res => res.json())
             .then(data => setDevelopers(data));
     }, []);
 
+    //cart handeler
     const handelToCart = (developer) => {
         const newCart = [...cart, developer];
         setCart(newCart);
     }
 
+    //sending props to child components
     return (
         <div className="developers-container">
             <div className="developer-container">

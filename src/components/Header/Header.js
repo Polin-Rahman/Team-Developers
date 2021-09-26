@@ -2,10 +2,13 @@ import React from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUsers } from '@fortawesome/free-solid-svg-icons';
+
 const Header = () => {
 
+    //icon
     const usersIcon = <FontAwesomeIcon icon={faUsers} />
 
+    //header section
     return (
         <div className="header">
             <div>

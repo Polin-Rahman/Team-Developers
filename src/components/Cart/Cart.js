@@ -5,14 +5,19 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css'
 
 const Cart = (props) => {
+
     const { cart } = props;
+
+    //total calculation
     let total = 0;
     for (const developer of cart) {
         total = total + developer.salary;
     }
 
+    //icon
     const userIcon = <FontAwesomeIcon icon={faUser} />
 
+    //cart details
     return (
         <div className="cart-main">
             <h2>{userIcon} Developers added: {props.cart.length}</h2>
