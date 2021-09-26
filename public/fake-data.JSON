@@ -6,7 +6,7 @@
         "age": 27,
         "gender": "Female",
         "country": "USA",
-        "salary": 2200,
+        "salary": 22000,
         "img": "https://image.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "age": 29,
         "gender": "Male",
         "country": "UK",
-        "salary": 2500,
+        "salary": 25000,
         "img": "https://image.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
     },
     {
@@ -26,7 +26,7 @@
         "age": 31,
         "gender": "Male",
         "country": "USA",
-        "salary": 3300,
+        "salary": 33000,
         "img": "https://image.freepik.com/free-photo/attractive-man-model-with-trendy-hairdo-beard-dressed-white-t-shirt_273609-16964.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "age": 37,
         "gender": "Male",
         "country": "Germany",
-        "salary": 4000,
+        "salary": 40000,
         "img": "https://image.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg"
     },
     {
@@ -46,7 +46,7 @@
         "age": 29,
         "gender": "Female",
         "country": "Australia",
-        "salary": 2900,
+        "salary": 29000,
         "img": "https://image.freepik.com/free-photo/lifestyle-business-people-holding-laptop-computer-office-desk_1150-10180.jpg"
     },
     {
@@ -56,7 +56,7 @@
         "age": 26,
         "gender": "Male",
         "country": "Uk",
-        "salary": 2800,
+        "salary": 28000,
         "img": "https://image.freepik.com/free-photo/young-male-looking-pink-t-shirt-looking-cheerful-front-view_176474-84436.jpg"
     },
     {
@@ -66,7 +66,7 @@
         "age": 24,
         "gender": "Female",
         "country": "Netherlands",
-        "salary": 2000,
+        "salary": 20000,
         "img": "https://image.freepik.com/free-photo/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.jpg"
     },
     {
@@ -76,7 +76,7 @@
         "age": 31,
         "gender": "Female",
         "country": "USA",
-        "salary": 4100,
+        "salary": 41000,
         "img": "https://image.freepik.com/free-photo/happy-confident-female-customer-posing-camera_74855-2850.jpg"
     },
     {
@@ -84,9 +84,9 @@
         "name": "Aidena John",
         "role": "Vue.Js Developer",
         "age": 28,
-        "gender": "Male",
+        "gender": "Female",
         "country": "Poland",
-        "salary": 2200,
+        "salary": 22000,
         "img": "https://image.freepik.com/free-photo/woman-with-laptop-computer-sitting-floor-isolated-white_231208-9490.jpg"
     },
     {
@@ -96,7 +96,7 @@
         "age": 32,
         "gender": "Male",
         "country": "France",
-        "salary": 3400,
+        "salary": 34000,
         "img": "https://image.freepik.com/free-photo/photo-attractive-man-with-stylish-hairdo-has-stubble-looks-directly-seriously-wears-checkered-shirt-isolated-white-wall-confident-male-manager-works-models-indoor_273609-14941.jpg"
     }
 ]

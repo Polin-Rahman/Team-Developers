@@ -1,8 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
-
-
+import { faFacebookSquare, faGithubSquare, faInstagramSquare, faLinkedin, faTwitterSquare, } from '@fortawesome/free-brands-svg-icons';
 
 import './Developer.css';
 
@@ -10,6 +9,11 @@ const Developer = (props) => {
     const { name, role, age, gender, img, salary, country } = props.developer;
 
     const cartIcon = <FontAwesomeIcon icon={faCartPlus} />
+    const linkIcon = <FontAwesomeIcon icon={faLinkedin} />
+    const gitIcon = <FontAwesomeIcon icon={faGithubSquare} />
+    const fbIcon = <FontAwesomeIcon icon={faFacebookSquare} />
+    const instaIcon = <FontAwesomeIcon icon={faInstagramSquare} />
+    const twitIcon = <FontAwesomeIcon icon={faTwitterSquare} />
 
 
     return (
@@ -20,18 +24,18 @@ const Developer = (props) => {
             <p><span className="blod-text">Country:</span> {country}</p>
             <p><span className="blod-text">Age:</span> {age}</p>
             <p><span className="blod-text">Gender:</span> {gender}</p>
-            <p><span className="blod-text">Salary:</span> ${salary}</p>
+            <p><span className="blod-text">Salary: </span>$ {salary}</p>
 
             <button
                 onClick={() => props.handelToCart(props.developer)}
                 className="btn-cart">{cartIcon} Add to Cart</button>
 
             <div className="socal-icons">
-
-                <i class="fab fa-github-square"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram-square"></i>
-                <i class="fab fa-twitter-square"></i>
+                <span className="icon">{linkIcon}</span>
+                <span className="icon">{gitIcon}</span>
+                <span className="icon">{fbIcon}</span>
+                <span className="icon">{instaIcon}</span>
+                <span className="icon">{twitIcon}</span>
             </div>
         </div>
     );
