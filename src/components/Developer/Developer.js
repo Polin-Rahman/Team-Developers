@@ -1,8 +1,17 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+
+
+
 import './Developer.css';
 
 const Developer = (props) => {
     const { name, role, age, gender, img, salary, country } = props.developer;
+
+    const cartIcon = <FontAwesomeIcon icon={faCartPlus} />
+
+
     return (
         <div className="developer-cart">
             <img src={img} alt="" />
@@ -12,9 +21,13 @@ const Developer = (props) => {
             <p><span className="blod-text">Age:</span> {age}</p>
             <p><span className="blod-text">Gender:</span> {gender}</p>
             <p><span className="blod-text">Salary:</span> ${salary}</p>
-            <button className="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+
+            <button
+                onClick={() => props.handelToCart(props.developer)}
+                className="btn-cart">{cartIcon} Add to Cart</button>
+
             <div className="socal-icons">
-                <i class="fab fa-linkedin"></i>
+
                 <i class="fab fa-github-square"></i>
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-instagram-square"></i>
